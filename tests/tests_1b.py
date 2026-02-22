@@ -35,7 +35,7 @@ def test_invalid_operation():
     with pytest.raises(ValueError, match="Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'."):
         simple_calculator("modulus", 5, 3)              # Test for invalid operation
     with pytest.raises(ValueError, match="Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'."):
-        simple_calculator("", 5, 3)                     # Test for empty operation
+        simple_calculator("", 4, 3)                     # Test for empty operation
 
 if __name__ == "__main__":
     pytest.main()
