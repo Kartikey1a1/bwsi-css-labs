@@ -12,7 +12,7 @@ def main():
 
     print(f"{name}, Welcome to the CSS course!")
     print("Hello, my name is Karik and I like to code")
-    # robot speed is 5
+    # robot speed is 8
 
 if __name__ == "__main__":
     main()
